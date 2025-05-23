@@ -1,0 +1,19 @@
+/* header, */
+
+* {
+    background-color: #2C2C2C;
+    text-align: center;
+    color: #920000;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+#tokyoGhoulHeaderLogo {
+  width: 900px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+#upsetti {
+    box-align: right;
+}
