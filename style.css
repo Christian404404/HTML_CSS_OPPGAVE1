@@ -1,38 +1,12 @@
-/* header, */
 
-* {
-    background-color: #2C2C2C;
-    text-align: center;
-    color: #920000;
-    margin-left: 45px;
-    margin-right: 45px;
+html {
+    background-color: darkred;
 }
-
-html, body {
-    height: 100%;
-}
-
 #tokyoGhoulHeaderLogo {
 /*  width: 900px;   */
+  width: 100%;
   height: 300px;
   border-radius: 5px;
   object-fit: contain;
-}
-
-.footer {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 150px;
-    background-color: whitesmoke;
-    box-sizing: border-box;
-}
-
-footer #upsetti {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: auto;
-    height: auto;
+  border-radius: 5px;
 }
