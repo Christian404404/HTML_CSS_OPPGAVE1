@@ -53,12 +53,17 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 90px;
-  color: whitesmoke;
+  background-color: inherit;
 }
 
 .break-after {
   display: inline-block;
   width: 100%;
+}
+
+#martinHarEnIde {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
 }
 
 /* 100svw , 100svh */
