@@ -56,6 +56,11 @@ footer {
   background-color: inherit;
 }
 
+#footerLogoMAL {
+  height: 139px;
+  width: 220px;
+}
+
 .break-after {
   display: inline-block;
   width: 100%;
