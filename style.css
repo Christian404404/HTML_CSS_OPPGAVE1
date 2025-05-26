@@ -1,8 +1,6 @@
 html {
-  background-color: rgb(65, 65, 65);
+  background-color: rgb(43, 41, 41);
   color: rgb(199, 0, 0);
-  text-align: center;
-  align-content: center;
   margin: 0;
   padding: 0;
 
@@ -15,12 +13,19 @@ html {
   h1 {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
   }
 
   h2 {
     font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 5px;
+  }
+
+  .characters {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: auto;
   }
 
   main {
@@ -41,17 +46,19 @@ html {
 }
 
 footer {
-  background-color: silver;
+  background-color: rgb(50, 24, 24);
   min-width: 100%swh;
   padding: 0;
   margin: 0;
-  word-spacing: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 90px;
+  color: whitesmoke;
 }
 
-#angryCatNoises {
-  align-content: right;
+.break-after {
+  display: inline-block;
+  width: 100%;
 }
 
-.main-character {
-}
 /* 100svw , 100svh */
